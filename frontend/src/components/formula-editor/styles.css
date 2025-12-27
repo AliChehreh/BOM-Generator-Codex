@@ -1,0 +1,180 @@
+/* Editor Container */
+.formula-editor-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-family: 'Segoe UI', 'Inter', sans-serif;
+}
+
+.formula-editor-container {
+  position: relative;
+  border: 1px solid #8a8886;
+  border-radius: 2px;
+  padding: 8px 12px;
+  min-height: 40px;
+  background-color: #fff;
+  cursor: text;
+  display: flex;
+  align-items: center;
+}
+
+.formula-editor-container:focus-within {
+  border-color: #0078d4;
+  box-shadow: 0 0 0 1px #0078d4;
+}
+
+.formula-editor-input {
+  flex: 1;
+  outline: none;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  min-height: 24px;
+  line-height: 24px;
+}
+
+/* Chips */
+.formula-token-variable {
+  background-color: #e5f1fb;
+  /* Light blueish for dynamic content */
+  color: #0078d4;
+  border-radius: 4px;
+  padding: 2px 6px;
+  margin: 0 2px;
+  font-weight: 500;
+  display: inline-block;
+  border: 1px solid transparent;
+  /* Placeholder */
+  user-select: none;
+}
+
+.formula-token-variable:hover {
+  background-color: #cce4f7;
+}
+
+/* Function Text */
+.formula-token-function {
+  color: #d13438;
+  /* Reddish for functions, similar to some highlighters, or stick to blue */
+  font-weight: 600;
+}
+
+/* Picker */
+.formula-picker {
+  border: 1px solid #edebe9;
+  background: #f3f2f1;
+  border-radius: 2px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+}
+
+.picker-tabs {
+  display: flex;
+  border-bottom: 1px solid #edebe9;
+  background: white;
+}
+
+.picker-tab {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  font-weight: 500;
+  color: #605e5c;
+}
+
+.picker-tab.active {
+  border-bottom-color: #0078d4;
+  color: #0078d4;
+}
+
+.picker-search {
+  padding: 8px;
+  background: white;
+  border-bottom: 1px solid #edebe9;
+}
+
+.picker-search input {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #8a8886;
+  border-radius: 2px;
+}
+
+.picker-content {
+  flex: 1;
+  overflow-y: auto;
+  background: white;
+}
+
+.picker-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.picker-item {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-bottom: 1px solid #f3f2f1;
+}
+
+.picker-item:hover {
+  background-color: #f3f2f1;
+}
+
+.picker-item-icon {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+  background: #f3f2f1;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.variable .picker-item-icon {
+  color: #0078d4;
+  background: #e5f1fb;
+}
+
+.function .picker-item-icon {
+  color: #d13438;
+  background: #fde7e9;
+}
+
+.picker-item-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.picker-item-label {
+  font-weight: 600;
+  font-size: 13px;
+  color: #323130;
+}
+
+.picker-item-desc {
+  font-size: 11px;
+  color: #605e5c;
+}
+
+/* Suggestions & Help (Keep existing but update styles if needed) */
+.formula-suggestions {
+  position: absolute;
+  z-index: 1000;
+  background: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  max-height: 200px;
+  overflow-y: auto;
+  min-width: 200px;
+}

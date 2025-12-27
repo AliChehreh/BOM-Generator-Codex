@@ -1,0 +1,24 @@
+:root {
+  --surface: #fff9f2;
+  --surface-alt: #f4f0e8;
+  --accent: #0b6e4f;
+  --accent-warm: #d97a35;
+  --shadow: rgba(17, 16, 14, 0.08);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(1200px 800px at 10% 10%, #fff7e7 0%, transparent 60%),
+    radial-gradient(900px 600px at 90% 15%, #f1f9f6 0%, transparent 55%),
+    linear-gradient(180deg, #f4f0e8 0%, #faf7f1 100%);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
