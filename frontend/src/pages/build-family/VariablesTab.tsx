@@ -16,7 +16,7 @@ import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 
 import { createVariable, deleteVariable, fetchVariables, updateVariable } from "../../api/hooks";
 import { Variable } from "../../api/types";
-import { api } from "../../api/client";
+
 import { FormulaEditorDialog } from "../../components/formula-editor/FormulaEditorDialog";
 import { Suggestion } from "../../components/formula-editor/useFormulaEditor";
 
@@ -55,12 +55,7 @@ export default function VariablesTab({ buildFamilyId }: { buildFamilyId: string 
     description: v.type
   })), [rows]);
 
-  const [formulaInput, setFormulaInput] = useState("");
-  const [inputsJson, setInputsJson] = useState("{\n  \"LS_L\": 10,\n  \"LS_H\": 5,\n  \"Finish\": \"A\",\n  \"Order_Qty\": 2,\n  \"ModelCode\": \"MC-1\"\n}");
-  const [configJson, setConfigJson] = useState("{}");
-  const [rowsJson, setRowsJson] = useState("{}");
-  const [lookupTablesJson, setLookupTablesJson] = useState("[]");
-  const [result, setResult] = useState<string | null>(null);
+
 
   useEffect(() => {
     setRows(data);
@@ -130,33 +125,7 @@ export default function VariablesTab({ buildFamilyId }: { buildFamilyId: string 
     });
   };
 
-  const handleValidate = async () => {
-    const response = await api.post("/formula/validate", { build_family_id: buildFamilyId, formula: formulaInput });
-    setResult(response.data.valid ? "Valid" : response.data.errors?.[0]?.message || "Error");
-  };
 
-  const handleTest = async () => {
-    try {
-      const response = await api.post("/formula/test", {
-        build_family_id: buildFamilyId,
-        formula: formulaInput,
-        context: {
-          inputs: JSON.parse(inputsJson),
-          config: JSON.parse(configJson),
-          variables: rows.map((row) => ({ name: row.name, type: row.type, formula: row.formula })),
-          rows: JSON.parse(rowsJson),
-          lookup_tables: JSON.parse(lookupTablesJson)
-        }
-      });
-      if (response.data.errors?.length) {
-        setResult(response.data.errors[0].message);
-      } else {
-        setResult(`${response.data.value_type}: ${JSON.stringify(response.data.value)}`);
-      }
-    } catch (error) {
-      setResult("Failed to test formula. Check JSON inputs.");
-    }
-  };
 
   return (
     <Box>
@@ -189,69 +158,11 @@ export default function VariablesTab({ buildFamilyId }: { buildFamilyId: string 
           loading={isLoading}
           processRowUpdate={processRowUpdate}
           disableRowSelectionOnClick
-          onRowClick={(params) => setFormulaInput(params.row.formula)}
+
         />
       </Box>
 
-      <Box sx={{ mt: 3, p: 2, borderRadius: 2, backgroundColor: "#FFF9F2", boxShadow: "0 10px 24px rgba(0,0,0,0.08)" }}>
-        <Typography variant="h6" sx={{ mb: 1 }}>
-          Formula Workbench
-        </Typography>
-        <Stack spacing={2}>
-          <TextField
-            label="Formula"
-            value={formulaInput}
-            onChange={(e) => setFormulaInput(e.target.value)}
-            multiline
-            minRows={2}
-          />
-          <Stack direction={{ xs: "column", md: "row" }} spacing={2}>
-            <TextField
-              label="Inputs JSON"
-              value={inputsJson}
-              onChange={(e) => setInputsJson(e.target.value)}
-              multiline
-              minRows={4}
-              fullWidth
-            />
-            <TextField
-              label="Config JSON"
-              value={configJson}
-              onChange={(e) => setConfigJson(e.target.value)}
-              multiline
-              minRows={4}
-              fullWidth
-            />
-          </Stack>
-          <Stack direction={{ xs: "column", md: "row" }} spacing={2}>
-            <TextField
-              label="Rows JSON"
-              value={rowsJson}
-              onChange={(e) => setRowsJson(e.target.value)}
-              multiline
-              minRows={4}
-              fullWidth
-            />
-            <TextField
-              label="Lookup Tables JSON"
-              value={lookupTablesJson}
-              onChange={(e) => setLookupTablesJson(e.target.value)}
-              multiline
-              minRows={4}
-              fullWidth
-            />
-          </Stack>
-          <Stack direction="row" spacing={1}>
-            <Button variant="outlined" onClick={handleValidate}>
-              Validate
-            </Button>
-            <Button variant="contained" onClick={handleTest}>
-              Test
-            </Button>
-            {result && <Typography sx={{ ml: 2 }}>{result}</Typography>}
-          </Stack>
-        </Stack>
-      </Box>
+
 
       <Dialog open={dialogOpen} onClose={() => setDialogOpen(false)} fullWidth maxWidth="sm">
         <DialogTitle>New Variable</DialogTitle>

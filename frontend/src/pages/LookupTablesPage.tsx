@@ -164,7 +164,7 @@ export default function LookupTablesPage() {
             Lookup Tables
           </Typography>
           <Typography color="text.secondary" sx={{ maxWidth: 600 }}>
-            Maintain XLOOKUP-ready tables and bundles. Define global or family-specific lookup data.
+            Maintain XLOOKUP-ready tables and bundles. Define global or family-specific lookup data. Open a table to import data from Excel.
           </Typography>
         </Box>
         <Button

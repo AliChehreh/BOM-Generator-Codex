@@ -194,7 +194,8 @@ export default function MainLayout({ children }: { children: ReactNode }) {
         </Drawer>
       </Box>
 
-      <Box component="main" sx={{ flexGrow: 1, p: { xs: 2, md: 4 }, pt: "100px", width: { md: `calc(100% - ${currentDrawerWidth}px)` } }}>
+      <Box component="main" sx={{ flexGrow: 1, p: { xs: 2, md: 4 }, width: { md: `calc(100% - ${currentDrawerWidth}px)` } }}>
+        <Toolbar sx={{ height: 70 }} />
         {children}
       </Box>
     </Box>

@@ -1,0 +1,1013 @@
+{
+  "entityName": "CartItems",
+  "entityType": "Dayus.Entities.Carts.Cart",
+  "entityId": "520",
+  "changeType": "Updated",
+  "occurredAtUtc": "2026-01-30T21:28:55.3720126+00:00",
+  "version": 1,
+  "data": {
+    "leadTimePlanId": 2,
+    "leadTimePlanIdsJson": "[]",
+    "leadTimePlanIds": [],
+    "materialSubtotalJson": "{\r\n \"1\": {\r\n \"PriceEntries\": [\r\n {\r\n \"Price\": 1725.1815,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1725.1815,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1725.1815,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1725.1815,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1725.1815,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1725.1815,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1725.1815,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1725.1815,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1725.1815,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1725.1815,\r\n \"ChangeReason\": null\r\n }\r\n ],\r\n \"PriceEntry\": {\r\n \"Price\": 1725.1815,\r\n \"ChangeReason\": null\r\n }\r\n },\r\n \"2\": {\r\n \"PriceEntries\": [\r\n {\r\n \"Price\": 1705.46514,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1705.46514,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1705.46514,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1705.46514,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1705.46514,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1705.46514,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1705.46514,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1705.46514,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1705.46514,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1705.46514,\r\n \"ChangeReason\": null\r\n }\r\n ],\r\n \"PriceEntry\": {\r\n \"Price\": 1705.46514,\r\n \"ChangeReason\": null\r\n }\r\n },\r\n \"3\": {\r\n \"PriceEntries\": [\r\n {\r\n \"Price\": 1680.81969,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1680.81969,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1680.81969,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1680.81969,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1680.81969,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1680.81969,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1680.81969,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1680.81969,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1680.81969,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1680.81969,\r\n \"ChangeReason\": null\r\n }\r\n ],\r\n \"PriceEntry\": {\r\n \"Price\": 1680.81969,\r\n \"ChangeReason\": null\r\n }\r\n }\r\n}",
+    "materialSubtotal": {
+      "1": {
+        "priceEntries": [
+          {
+            "price": 1725.1815
+          },
+          {
+            "price": 1725.1815
+          },
+          {
+            "price": 1725.1815
+          },
+          {
+            "price": 1725.1815
+          },
+          {
+            "price": 1725.1815
+          },
+          {
+            "price": 1725.1815
+          },
+          {
+            "price": 1725.1815
+          },
+          {
+            "price": 1725.1815
+          },
+          {
+            "price": 1725.1815
+          },
+          {
+            "price": 1725.1815
+          }
+        ],
+        "priceEntry": {
+          "price": 1725.1815
+        }
+      },
+      "2": {
+        "priceEntries": [
+          {
+            "price": 1705.46514
+          },
+          {
+            "price": 1705.46514
+          },
+          {
+            "price": 1705.46514
+          },
+          {
+            "price": 1705.46514
+          },
+          {
+            "price": 1705.46514
+          },
+          {
+            "price": 1705.46514
+          },
+          {
+            "price": 1705.46514
+          },
+          {
+            "price": 1705.46514
+          },
+          {
+            "price": 1705.46514
+          },
+          {
+            "price": 1705.46514
+          }
+        ],
+        "priceEntry": {
+          "price": 1705.46514
+        }
+      },
+      "3": {
+        "priceEntries": [
+          {
+            "price": 1680.81969
+          },
+          {
+            "price": 1680.81969
+          },
+          {
+            "price": 1680.81969
+          },
+          {
+            "price": 1680.81969
+          },
+          {
+            "price": 1680.81969
+          },
+          {
+            "price": 1680.81969
+          },
+          {
+            "price": 1680.81969
+          },
+          {
+            "price": 1680.81969
+          },
+          {
+            "price": 1680.81969
+          },
+          {
+            "price": 1680.81969
+          }
+        ],
+        "priceEntry": {
+          "price": 1680.81969
+        }
+      }
+    },
+    "subtotalJson": "{\r\n \"1\": {\r\n \"PriceEntries\": [\r\n {\r\n \"Price\": 1727.6815,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1727.6815,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1727.6815,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1727.6815,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1727.6815,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1727.6815,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1727.6815,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1727.6815,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1727.6815,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1727.6815,\r\n \"ChangeReason\": null\r\n }\r\n ],\r\n \"PriceEntry\": {\r\n \"Price\": 1727.6815,\r\n \"ChangeReason\": null\r\n }\r\n },\r\n \"2\": {\r\n \"PriceEntries\": [\r\n {\r\n \"Price\": 1707.96514,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1707.96514,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1707.96514,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1707.96514,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1707.96514,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1707.96514,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1707.96514,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1707.96514,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1707.96514,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1707.96514,\r\n \"ChangeReason\": null\r\n }\r\n ],\r\n \"PriceEntry\": {\r\n \"Price\": 1707.96514,\r\n \"ChangeReason\": null\r\n }\r\n },\r\n \"3\": {\r\n \"PriceEntries\": [\r\n {\r\n \"Price\": 1683.31969,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1683.31969,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1683.31969,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1683.31969,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1683.31969,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1683.31969,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1683.31969,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1683.31969,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1683.31969,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1683.31969,\r\n \"ChangeReason\": null\r\n }\r\n ],\r\n \"PriceEntry\": {\r\n \"Price\": 1683.31969,\r\n \"ChangeReason\": null\r\n }\r\n }\r\n}",
+    "subtotal": {
+      "1": {
+        "priceEntries": [
+          {
+            "price": 1727.6815
+          },
+          {
+            "price": 1727.6815
+          },
+          {
+            "price": 1727.6815
+          },
+          {
+            "price": 1727.6815
+          },
+          {
+            "price": 1727.6815
+          },
+          {
+            "price": 1727.6815
+          },
+          {
+            "price": 1727.6815
+          },
+          {
+            "price": 1727.6815
+          },
+          {
+            "price": 1727.6815
+          },
+          {
+            "price": 1727.6815
+          }
+        ],
+        "priceEntry": {
+          "price": 1727.6815
+        }
+      },
+      "2": {
+        "priceEntries": [
+          {
+            "price": 1707.96514
+          },
+          {
+            "price": 1707.96514
+          },
+          {
+            "price": 1707.96514
+          },
+          {
+            "price": 1707.96514
+          },
+          {
+            "price": 1707.96514
+          },
+          {
+            "price": 1707.96514
+          },
+          {
+            "price": 1707.96514
+          },
+          {
+            "price": 1707.96514
+          },
+          {
+            "price": 1707.96514
+          },
+          {
+            "price": 1707.96514
+          }
+        ],
+        "priceEntry": {
+          "price": 1707.96514
+        }
+      },
+      "3": {
+        "priceEntries": [
+          {
+            "price": 1683.31969
+          },
+          {
+            "price": 1683.31969
+          },
+          {
+            "price": 1683.31969
+          },
+          {
+            "price": 1683.31969
+          },
+          {
+            "price": 1683.31969
+          },
+          {
+            "price": 1683.31969
+          },
+          {
+            "price": 1683.31969
+          },
+          {
+            "price": 1683.31969
+          },
+          {
+            "price": 1683.31969
+          },
+          {
+            "price": 1683.31969
+          }
+        ],
+        "priceEntry": {
+          "price": 1683.31969
+        }
+      }
+    },
+    "taxTotalJson": "{\r\n \"1\": {\r\n \"PriceEntries\": [\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n }\r\n ],\r\n \"PriceEntry\": {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n }\r\n },\r\n \"2\": {\r\n \"PriceEntries\": [\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n }\r\n ],\r\n \"PriceEntry\": {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n }\r\n },\r\n \"3\": {\r\n \"PriceEntries\": [\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n }\r\n ],\r\n \"PriceEntry\": {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n }\r\n }\r\n}",
+    "taxTotal": {
+      "1": {
+        "priceEntries": [
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          }
+        ],
+        "priceEntry": {
+          "price": 0.0
+        }
+      },
+      "2": {
+        "priceEntries": [
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          }
+        ],
+        "priceEntry": {
+          "price": 0.0
+        }
+      },
+      "3": {
+        "priceEntries": [
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          }
+        ],
+        "priceEntry": {
+          "price": 0.0
+        }
+      }
+    },
+    "totalJson": "{\r\n \"1\": {\r\n \"PriceEntries\": [\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n }\r\n ],\r\n \"PriceEntry\": {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n }\r\n },\r\n \"2\": {\r\n \"PriceEntries\": [\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n }\r\n ],\r\n \"PriceEntry\": {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n }\r\n },\r\n \"3\": {\r\n \"PriceEntries\": [\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n }\r\n ],\r\n \"PriceEntry\": {\r\n \"Price\": 0.0,\r\n \"ChangeReason\": null\r\n }\r\n }\r\n}",
+    "total": {
+      "1": {
+        "priceEntries": [
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          }
+        ],
+        "priceEntry": {
+          "price": 0.0
+        }
+      },
+      "2": {
+        "priceEntries": [
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          }
+        ],
+        "priceEntry": {
+          "price": 0.0
+        }
+      },
+      "3": {
+        "priceEntries": [
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          },
+          {
+            "price": 0.0
+          }
+        ],
+        "priceEntry": {
+          "price": 0.0
+        }
+      }
+    },
+    "surchargeTotal": 2.5,
+    "shippingTotal": 10.0,
+    "sortBy": 4,
+    "surcharges": [],
+    "overrides": [],
+    "items": [
+      {
+        "cartId": 520,
+        "productId": 101,
+        "quantity": 4,
+        "length": 12,
+        "height": 8,
+        "finishId": 1,
+        "groupTag": "",
+        "floorTag": "",
+        "productTag1": "",
+        "productTag2": "",
+        "specialIndicators": 0,
+        "errorIndicators": 0,
+        "listPrice": 213.19,
+        "unitNetPriceJson": "{\r\n \"1\": {\r\n \"PriceEntries\": [\r\n {\r\n \"Price\": 223.8495,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 223.8495,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 223.8495,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 223.8495,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 223.8495,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 223.8495,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 223.8495,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 223.8495,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 223.8495,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 223.8495,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 223.8495,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 223.8495,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 223.8495,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 223.8495,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 223.8495,\r\n \"ChangeReason\": null\r\n }\r\n ],\r\n \"PriceEntry\": {\r\n \"Price\": 223.8495,\r\n \"ChangeReason\": null\r\n }\r\n },\r\n \"2\": {\r\n \"PriceEntries\": [\r\n {\r\n \"Price\": 221.29122,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 221.29122,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 221.29122,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 221.29122,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 221.29122,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 221.29122,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 221.29122,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 221.29122,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 221.29122,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 221.29122,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 221.29122,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 221.29122,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 221.29122,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 221.29122,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 221.29122,\r\n \"ChangeReason\": null\r\n }\r\n ],\r\n \"PriceEntry\": {\r\n \"Price\": 221.29122,\r\n \"ChangeReason\": null\r\n }\r\n },\r\n \"3\": {\r\n \"PriceEntries\": [\r\n {\r\n \"Price\": 218.09337,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 218.09337,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 218.09337,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 218.09337,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 218.09337,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 218.09337,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 218.09337,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 218.09337,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 218.09337,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 218.09337,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 218.09337,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 218.09337,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 218.09337,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 218.09337,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 218.09337,\r\n \"ChangeReason\": null\r\n }\r\n ],\r\n \"PriceEntry\": {\r\n \"Price\": 218.09337,\r\n \"ChangeReason\": null\r\n }\r\n }\r\n}",
+        "unitNetPrice": {
+          "1": {
+            "priceEntries": [
+              {
+                "price": 223.8495
+              },
+              {
+                "price": 223.8495
+              },
+              {
+                "price": 223.8495
+              },
+              {
+                "price": 223.8495
+              },
+              {
+                "price": 223.8495
+              },
+              {
+                "price": 223.8495
+              },
+              {
+                "price": 223.8495
+              },
+              {
+                "price": 223.8495
+              },
+              {
+                "price": 223.8495
+              },
+              {
+                "price": 223.8495
+              },
+              {
+                "price": 223.8495
+              },
+              {
+                "price": 223.8495
+              },
+              {
+                "price": 223.8495
+              },
+              {
+                "price": 223.8495
+              },
+              {
+                "price": 223.8495
+              }
+            ],
+            "priceEntry": {
+              "price": 223.8495
+            }
+          },
+          "2": {
+            "priceEntries": [
+              {
+                "price": 221.29122
+              },
+              {
+                "price": 221.29122
+              },
+              {
+                "price": 221.29122
+              },
+              {
+                "price": 221.29122
+              },
+              {
+                "price": 221.29122
+              },
+              {
+                "price": 221.29122
+              },
+              {
+                "price": 221.29122
+              },
+              {
+                "price": 221.29122
+              },
+              {
+                "price": 221.29122
+              },
+              {
+                "price": 221.29122
+              },
+              {
+                "price": 221.29122
+              },
+              {
+                "price": 221.29122
+              },
+              {
+                "price": 221.29122
+              },
+              {
+                "price": 221.29122
+              },
+              {
+                "price": 221.29122
+              }
+            ],
+            "priceEntry": {
+              "price": 221.29122
+            }
+          },
+          "3": {
+            "priceEntries": [
+              {
+                "price": 218.09337
+              },
+              {
+                "price": 218.09337
+              },
+              {
+                "price": 218.09337
+              },
+              {
+                "price": 218.09337
+              },
+              {
+                "price": 218.09337
+              },
+              {
+                "price": 218.09337
+              },
+              {
+                "price": 218.09337
+              },
+              {
+                "price": 218.09337
+              },
+              {
+                "price": 218.09337
+              },
+              {
+                "price": 218.09337
+              },
+              {
+                "price": 218.09337
+              },
+              {
+                "price": 218.09337
+              },
+              {
+                "price": 218.09337
+              },
+              {
+                "price": 218.09337
+              },
+              {
+                "price": 218.09337
+              }
+            ],
+            "priceEntry": {
+              "price": 218.09337
+            }
+          }
+        },
+        "totalPriceJson": "{\r\n \"1\": {\r\n \"PriceEntries\": [\r\n {\r\n \"Price\": 1119.2475,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1119.2475,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1119.2475,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1119.2475,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1119.2475,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1119.2475,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1119.2475,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1119.2475,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1119.2475,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1119.2475,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1119.2475,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1119.2475,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1119.2475,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1119.2475,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1119.2475,\r\n \"ChangeReason\": null\r\n }\r\n ],\r\n \"PriceEntry\": {\r\n \"Price\": 1119.2475,\r\n \"ChangeReason\": null\r\n }\r\n },\r\n \"2\": {\r\n \"PriceEntries\": [\r\n {\r\n \"Price\": 1106.4561,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1106.4561,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1106.4561,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1106.4561,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1106.4561,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1106.4561,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1106.4561,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1106.4561,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1106.4561,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1106.4561,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1106.4561,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1106.4561,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1106.4561,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1106.4561,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1106.4561,\r\n \"ChangeReason\": null\r\n }\r\n ],\r\n \"PriceEntry\": {\r\n \"Price\": 1106.4561,\r\n \"ChangeReason\": null\r\n }\r\n },\r\n \"3\": {\r\n \"PriceEntries\": [\r\n {\r\n \"Price\": 1090.46685,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1090.46685,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1090.46685,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1090.46685,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1090.46685,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1090.46685,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1090.46685,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1090.46685,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1090.46685,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1090.46685,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1090.46685,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1090.46685,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1090.46685,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1090.46685,\r\n \"ChangeReason\": null\r\n },\r\n {\r\n \"Price\": 1090.46685,\r\n \"ChangeReason\": null\r\n }\r\n ],\r\n \"PriceEntry\": {\r\n \"Price\": 1090.46685,\r\n \"ChangeReason\": null\r\n }\r\n }\r\n}",
+        "totalPrice": {
+          "1": {
+            "priceEntries": [
+              {
+                "price": 1119.2475
+              },
+              {
+                "price": 1119.2475
+              },
+              {
+                "price": 1119.2475
+              },
+              {
+                "price": 1119.2475
+              },
+              {
+                "price": 1119.2475
+              },
+              {
+                "price": 1119.2475
+              },
+              {
+                "price": 1119.2475
+              },
+              {
+                "price": 1119.2475
+              },
+              {
+                "price": 1119.2475
+              },
+              {
+                "price": 1119.2475
+              },
+              {
+                "price": 1119.2475
+              },
+              {
+                "price": 1119.2475
+              },
+              {
+                "price": 1119.2475
+              },
+              {
+                "price": 1119.2475
+              },
+              {
+                "price": 1119.2475
+              }
+            ],
+            "priceEntry": {
+              "price": 1119.2475
+            }
+          },
+          "2": {
+            "priceEntries": [
+              {
+                "price": 1106.4561
+              },
+              {
+                "price": 1106.4561
+              },
+              {
+                "price": 1106.4561
+              },
+              {
+                "price": 1106.4561
+              },
+              {
+                "price": 1106.4561
+              },
+              {
+                "price": 1106.4561
+              },
+              {
+                "price": 1106.4561
+              },
+              {
+                "price": 1106.4561
+              },
+              {
+                "price": 1106.4561
+              },
+              {
+                "price": 1106.4561
+              },
+              {
+                "price": 1106.4561
+              },
+              {
+                "price": 1106.4561
+              },
+              {
+                "price": 1106.4561
+              },
+              {
+                "price": 1106.4561
+              },
+              {
+                "price": 1106.4561
+              }
+            ],
+            "priceEntry": {
+              "price": 1106.4561
+            }
+          },
+          "3": {
+            "priceEntries": [
+              {
+                "price": 1090.46685
+              },
+              {
+                "price": 1090.46685
+              },
+              {
+                "price": 1090.46685
+              },
+              {
+                "price": 1090.46685
+              },
+              {
+                "price": 1090.46685
+              },
+              {
+                "price": 1090.46685
+              },
+              {
+                "price": 1090.46685
+              },
+              {
+                "price": 1090.46685
+              },
+              {
+                "price": 1090.46685
+              },
+              {
+                "price": 1090.46685
+              },
+              {
+                "price": 1090.46685
+              },
+              {
+                "price": 1090.46685
+              },
+              {
+                "price": 1090.46685
+              },
+              {
+                "price": 1090.46685
+              },
+              {
+                "price": 1090.46685
+              }
+            ],
+            "priceEntry": {
+              "price": 1090.46685
+            }
+          }
+        },
+        "surcharges": [],
+        "overrides": [
+          {
+            "id": 1,
+            "name": "Pricing override 1",
+            "parameter": 1,
+            "operator": 1,
+            "modifier": "1.1",
+            "change": 19.2,
+            "result": 211.2
+          },
+          {
+            "id": 6,
+            "name": "Pricing Override 2",
+            "parameter": 1,
+            "operator": 0,
+            "modifier": "1.99",
+            "change": 1.99,
+            "result": 213.19
+          }
+        ],
+        "multipliers": {
+          "1": {
+            "priceEntries": [
+              {
+                "price": 1.05
+              },
+              {
+                "price": 1.05
+              },
+              {
+                "price": 1.05
+              },
+              {
+                "price": 1.05
+              },
+              {
+                "price": 1.05
+              },
+              {
+                "price": 1.05
+              },
+              {
+                "price": 1.05
+              },
+              {
+                "price": 1.05
+              },
+              {
+                "price": 1.05
+              },
+              {
+                "price": 1.05
+              },
+              {
+                "price": 1.05
+              }
+            ],
+            "priceEntry": {
+              "price": 1.05
+            }
+          },
+          "2": {
+            "priceEntries": [
+              {
+                "price": 1.038
+              },
+              {
+                "price": 1.038
+              },
+              {
+                "price": 1.038
+              },
+              {
+                "price": 1.038
+              },
+              {
+                "price": 1.038
+              },
+              {
+                "price": 1.038
+              },
+              {
+                "price": 1.038
+              },
+              {
+                "price": 1.038
+              },
+              {
+                "price": 1.038
+              },
+              {
+                "price": 1.038
+              },
+              {
+                "price": 1.038
+              }
+            ],
+            "priceEntry": {
+              "price": 1.038
+            }
+          },
+          "3": {
+            "priceEntries": [
+              {
+                "price": 1.023
+              },
+              {
+                "price": 1.023
+              },
+              {
+                "price": 1.023
+              },
+              {
+                "price": 1.023
+              },
+              {
+                "price": 1.023
+              },
+              {
+                "price": 1.023
+              },
+              {
+                "price": 1.023
+              },
+              {
+                "price": 1.023
+              },
+              {
+                "price": 1.023
+              },
+              {
+                "price": 1.023
+              },
+              {
+                "price": 1.023
+              }
+            ],
+            "priceEntry": {
+              "price": 1.023
+            }
+          }
+        },
+        "intermediateCalculations": {
+          "unitParentListPrice": 41,
+          "measurementPrice": 0,
+          "optionsPrice": 8
+        },
+        "product": {
+          "code": "SDBLDNNF-01-C",
+          "nameTextId": 553,
+          "categoryId": 7,
+          "productFamilyId": 7,
+          "pricingSetId": 1,
+          "dimensions": 3,
+          "isFeatured": false,
+          "isBaseModel": false,
+          "baseModelId": 50,
+          "status": 2,
+          "parentProductId": 100,
+          "level": 2,
+          "productCustomizations": [],
+          "relatedProducts": [],
+          "isDeleted": false,
+          "lastModificationTime": "2026-01-30T16:28:55.1089026-05:00",
+          "lastModifierId": "29f0d434-6aa4-6f0b-9882-3a150d8b1260",
+          "creationTime": "2025-04-22T10:47:49.697066",
+          "creatorId": "d0f03d17-d976-b36b-f6da-3a1512a22a59",
+          "id": 101
+        },
+        "finish": {
+          "groupId": 1,
+          "nameTextId": 133,
+          "descriptionTextId": 134,
+          "imageId": 294,
+          "sortOrder": 1,
+          "code": "W",
+          "isSpecialOrder": false,
+          "nameResource": {
+            "group": "Customizations:Name",
+            "key": "Finish:White",
+            "invariantValue": "White",
+            "translations": [],
+            "lastModificationTime": "2026-01-30T16:28:55.1103759-05:00",
+            "lastModifierId": "29f0d434-6aa4-6f0b-9882-3a150d8b1260",
+            "creationTime": "2024-12-05T15:32:53.3149335",
+            "creatorId": "d0f03d17-d976-b36b-f6da-3a1512a22a59",
+            "id": 133
+          },
+          "isDeleted": false,
+          "lastModificationTime": "2026-01-30T16:28:55.1096803-05:00",
+          "lastModifierId": "29f0d434-6aa4-6f0b-9882-3a150d8b1260",
+          "creationTime": "2024-12-05T15:33:04.2954927",
+          "creatorId": "d0f03d17-d976-b36b-f6da-3a1512a22a59",
+          "id": 1
+        },
+        "lastModificationTime": "2026-01-30T16:28:54.9451835-05:00",
+        "lastModifierId": "29f0d434-6aa4-6f0b-9882-3a150d8b1260",
+        "creationTime": "0001-01-01T00:00:00",
+        "id": 12902
+      }
+    ],
+    "lastModificationTime": "2026-01-30T16:28:55.0438831-05:00",
+    "lastModifierId": "29f0d434-6aa4-6f0b-9882-3a150d8b1260",
+    "creationTime": "0001-01-01T00:00:00",
+    "id": 520
+  }
+}

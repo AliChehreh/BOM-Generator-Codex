@@ -388,6 +388,7 @@ export default function LookupTableDetailPage() {
             getRowId={(row) => row.id}
             disableRowSelectionOnClick
             processRowUpdate={processRowUpdate}
+            hideFooter
             slots={{ toolbar: GridToolbar }}
             slotProps={{
               toolbar: {
